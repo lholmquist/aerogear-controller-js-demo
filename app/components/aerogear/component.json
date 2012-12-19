@@ -1,0 +1,37 @@
+{
+  "name": "aerogear",
+  "title": "AeroGear JavaScript Library",
+  "description": "Provides a lightweight set of utilities for communication, security, storage and more.",
+  "version": "1.0.0-M2",
+  "main": "./dist/aerogear.min.js",
+  "homepage": "https://github.com/aerogear/aerogear-js",
+  "author": {
+    "name": "Red Hat, Inc.",
+    "url": "http://aerogear.org"
+  },
+  "maintainers": {
+    "name": "Kris Borchers",
+    "email": "kris@redhat.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aerogear/aerogear-js.git"
+  },
+  "bugs": {
+    "url": "https://issues.jboss.org/browse/AEROGEAR"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.7.2"
+  },
+  "keywords": [],
+  "gitHead": "9db6ba62664fcbcd3d55c45ed32eb3cff29f3c83",
+  "readme": "aerogear-js\n===========\n\nJavaScript client library implementation for AeroGear. Eventually, this will include API's for persistence, security, data synchronization and more.\n\nAuth\n----\n\nThe AeroGear.Auth namespace provides an authentication and enrollment API. Through the use of adapters, this library provides common methods like enroll, login and logout that will just work.\n\nSee the [Auth API docs](http://aerogear.org/docs/specs/aerogear-js/AeroGear.Auth.html) for more info.\n\nDataManager\n-----------\n\nA collection of data connections (stores) and their corresponding data models. This object provides a standard way to interact with client side data no matter the data format or storage mechanism used.\n\nSee the [DataManager API docs](http://aerogear.org/docs/specs/aerogear-js/AeroGear.DataManager.html) for more info.\n\nPipeline\n--------\n\nPipeline is a JavaScript library that provides a persistence API that is protocol agnostic and does not depend on any certain data model. Through the use of adapters, both provided and custom, user supplied, this library provides common methods like read, save and delete that will just work.\n\nSee the [Pipeline API docs](http://aerogear.org/docs/specs/aerogear-js/AeroGear.Pipeline.html) for more info.\n",
+  "readmeFilename": "README.md",
+  "_id": "aerogear@1.0.0-M2"
+}
