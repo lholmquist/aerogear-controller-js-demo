@@ -1,0 +1,1 @@
+This project can be run using "yeoman server"
